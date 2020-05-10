@@ -1,0 +1,32 @@
+.big-btn{
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+  background-color: #34006e;
+  font-size: 24px;
+}
+
+#hire-me{
+  background-color: orangered;
+}
+
+#hire-me a{
+  text-decoration: none;
+  color: white
+}
+
+#hire-me:hover{
+  background-color: rgb(221, 1, 1);
+  font-weight: bolder;
+}
+
+.small-btn{
+  padding: 4px;
+  color: #333333;
+  background-color: #ffffffb2;
+  font-size: 14px;
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+}

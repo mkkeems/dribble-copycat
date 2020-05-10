@@ -1,0 +1,37 @@
+.navbar {
+  /* width: 95%; */
+  padding: 3px;
+  background-color: rgba(255, 255, 255, 0.521);
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list{
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav-list li{
+
+  font-weight: bolder;
+  font-size: 18px;
+  display: inline;
+  margin-right: 30px;
+}
+
+.nav-list li a{
+  text-decoration: none;
+  color: #181818;
+  padding-top: 20px;
+  /* border: 1px solid red; */
+}
+
+.nav-list li a:hover{
+  border-top: 3px solid rgb(161, 47, 255);
+}
+
+#search{
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

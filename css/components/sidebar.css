@@ -1,0 +1,92 @@
+
+.sidebar {
+  width: 22%;
+  height: 100vh;
+  background-color: greenyellow;
+  padding: 1% 0 1% 1%;
+  position: sticky;
+  top: 0;
+}
+
+svg {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  z-index: 1;
+}
+
+rect.hbar {
+  mask: url(#mask-stripe)
+}
+
+.fillColor {
+  fill: grey;
+}
+
+.sidebar-top {
+  display: flex;
+}
+
+#portf-square {
+  position: absolute;
+  left: 55px;
+  top: 60px;
+  width: 60px;
+  height: 32px;
+  background-color: #444444;
+  z-index: 2;
+}
+
+#sidebar-name{
+  color: white;
+  position: absolute;
+  left: 60px;
+  top: 60px;
+  z-index: 3;
+  font-size: 20px;
+}
+
+.sidebar-bottom{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  height: 70%;
+  /* margin-bottom: 50px; */
+}
+
+#vertical-inline-list{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 12px;
+}
+
+#vertical-inline-list li {
+  display: inline;
+  margin-top: 20px;
+}
+
+.sidebar-bottomright{
+  /* text-align: right; */
+  /* border: 1px solid blueviolet; */
+  height: 100%;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.port-photo {
+  margin-top: 40%;
+
+}
+
+.port-photo p{
+  font-size: 16px;
+}
+
+.square-avatar{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
